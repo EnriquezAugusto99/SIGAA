@@ -1,0 +1,1930 @@
+=== 2026-05-21 13:26:32 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48740876
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: e031400f79344fde9bf257d227bcb1006cb2cee4deaae9cd79902f04534a575a
+SESSION csrf_token: e031400f79344fde9bf257d227bcb1006cb2cee4deaae9cd79902f04534a575a
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 24679717, Materia: 228, Curso: 16
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '24679717' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Palacios, Fabiola
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '228'
+Materia encontrada: Matematica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '16'
+Curso encontrado: 5° "B" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '24679717' AND id_materia = '228' AND id_curso = '16'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('24679717', '228', '16')
+=== 2026-05-21 13:58:34 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48740876
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: e031400f79344fde9bf257d227bcb1006cb2cee4deaae9cd79902f04534a575a
+SESSION csrf_token: e031400f79344fde9bf257d227bcb1006cb2cee4deaae9cd79902f04534a575a
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 24679717, Materia: 228, Curso: 16
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '24679717' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Palacios, Fabiola
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '228'
+Materia encontrada: Matematica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '16'
+Curso encontrado: 5° "B" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '24679717' AND id_materia = '228' AND id_curso = '16'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('24679717', '228', '16')
+Paso 16: Inserción exitosa
+=== 2026-05-21 15:26:24 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48740876
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: b4da32cddcf1e3fd581e5ab3404855a5cd76011f226d5e30af04e439868bebf5
+SESSION csrf_token: b4da32cddcf1e3fd581e5ab3404855a5cd76011f226d5e30af04e439868bebf5
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 31701809, Materia: 269, Curso: 18
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '31701809' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Aranda, Sandra Elizabeth
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '269'
+Materia encontrada: Aplicaciones en Redes
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '18'
+Curso encontrado: 6° "B" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '31701809' AND id_materia = '269' AND id_curso = '18'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('31701809', '269', '18')
+Paso 16: Inserción exitosa
+=== 2026-05-21 15:26:39 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48740876
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: b4da32cddcf1e3fd581e5ab3404855a5cd76011f226d5e30af04e439868bebf5
+SESSION csrf_token: b4da32cddcf1e3fd581e5ab3404855a5cd76011f226d5e30af04e439868bebf5
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 31701809, Materia: 274, Curso: 18
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '31701809' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Aranda, Sandra Elizabeth
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '274'
+Materia encontrada: Laboratorio de Mantenimiento de Software
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '18'
+Curso encontrado: 6° "B" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '31701809' AND id_materia = '274' AND id_curso = '18'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('31701809', '274', '18')
+Paso 16: Inserción exitosa
+=== 2026-05-21 15:26:53 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48740876
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: b4da32cddcf1e3fd581e5ab3404855a5cd76011f226d5e30af04e439868bebf5
+SESSION csrf_token: b4da32cddcf1e3fd581e5ab3404855a5cd76011f226d5e30af04e439868bebf5
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 31701809, Materia: 272, Curso: 18
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '31701809' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Aranda, Sandra Elizabeth
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '272'
+Materia encontrada: Redes III
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '18'
+Curso encontrado: 6° "B" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '31701809' AND id_materia = '272' AND id_curso = '18'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('31701809', '272', '18')
+Paso 16: Inserción exitosa
+=== 2026-05-21 15:27:04 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48740876
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: b4da32cddcf1e3fd581e5ab3404855a5cd76011f226d5e30af04e439868bebf5
+SESSION csrf_token: b4da32cddcf1e3fd581e5ab3404855a5cd76011f226d5e30af04e439868bebf5
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 31701809, Materia: 271, Curso: 18
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '31701809' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Aranda, Sandra Elizabeth
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '271'
+Materia encontrada: Sistema Operativo de Red
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '18'
+Curso encontrado: 6° "B" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '31701809' AND id_materia = '271' AND id_curso = '18'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('31701809', '271', '18')
+Paso 16: Inserción exitosa
+=== 2026-05-21 16:35:02 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48740876
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 4bcd6453c2a67d490af475502cabcbe0060fb2b85581fb1438c54cd2953eb54c
+SESSION csrf_token: 4bcd6453c2a67d490af475502cabcbe0060fb2b85581fb1438c54cd2953eb54c
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 38382988, Materia: 226, Curso: 16
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '38382988' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Vaca, Romina
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '226'
+Materia encontrada: Psicologia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '16'
+Curso encontrado: 5° "B" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '38382988' AND id_materia = '226' AND id_curso = '16'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('38382988', '226', '16')
+Paso 16: Inserción exitosa
+=== 2026-05-22 13:27:25 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48740876
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 7b1afd27b4d1c8480d70af3e04ef70486322d9c17ccca65b681b996c2eee0578
+SESSION csrf_token: 7b1afd27b4d1c8480d70af3e04ef70486322d9c17ccca65b681b996c2eee0578
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 28017900, Materia: 167, Curso: 12
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '28017900' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Galeano, Fernando
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '167'
+Materia encontrada: Laboratorio de software I
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '12'
+Curso encontrado: 3° "C" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '28017900' AND id_materia = '167' AND id_curso = '12'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('28017900', '167', '12')
+Paso 16: Inserción exitosa
+=== 2026-05-22 13:28:51 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48740876
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 7b1afd27b4d1c8480d70af3e04ef70486322d9c17ccca65b681b996c2eee0578
+SESSION csrf_token: 7b1afd27b4d1c8480d70af3e04ef70486322d9c17ccca65b681b996c2eee0578
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 28017900, Materia: 203, Curso: 14
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '28017900' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Galeano, Fernando
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '203'
+Materia encontrada: Laboratorio de Software II
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '14'
+Curso encontrado: 4° "B" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '28017900' AND id_materia = '203' AND id_curso = '14'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('28017900', '203', '14')
+Paso 16: Inserción exitosa
+=== 2026-05-28 11:21:45 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: b00c7ddf50a9f1b3420230ab72303d3e9e6956ab2d892f89d5d8cf394e64e0df
+SESSION csrf_token: b00c7ddf50a9f1b3420230ab72303d3e9e6956ab2d892f89d5d8cf394e64e0df
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 27997702, Materia: 270, Curso: 18
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '27997702' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Machado, Karina Raquel
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '270'
+Materia encontrada: Microemprendimiento
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '18'
+Curso encontrado: 6° "B" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '27997702' AND id_materia = '270' AND id_curso = '18'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('27997702', '270', '18')
+Paso 16: Inserción exitosa
+=== 2026-05-28 17:22:41 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 6234527f265874a28195a35fab95b1c554eff5fda9f4171c65f46ef1c964db37
+SESSION csrf_token: 6234527f265874a28195a35fab95b1c554eff5fda9f4171c65f46ef1c964db37
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 32177914, Materia: 88, Curso: 7
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '32177914' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Tejera, Silvia Daniela
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '88'
+Materia encontrada: Biologia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '7'
+Curso encontrado: 2° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '32177914' AND id_materia = '88' AND id_curso = '7'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('32177914', '88', '7')
+Paso 16: Inserción exitosa
+=== 2026-05-28 17:22:57 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 6234527f265874a28195a35fab95b1c554eff5fda9f4171c65f46ef1c964db37
+SESSION csrf_token: 6234527f265874a28195a35fab95b1c554eff5fda9f4171c65f46ef1c964db37
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 32177914, Materia: 95, Curso: 8
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '32177914' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Tejera, Silvia Daniela
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '95'
+Materia encontrada: Biologia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '8'
+Curso encontrado: 2° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '32177914' AND id_materia = '95' AND id_curso = '8'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('32177914', '95', '8')
+Paso 16: Inserción exitosa
+=== 2026-06-01 08:29:16 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 6c19b2d399ab823774e4540168dc2d94b6f3bd8f26e9324b09da13ebda0e6c4b
+SESSION csrf_token: 6c19b2d399ab823774e4540168dc2d94b6f3bd8f26e9324b09da13ebda0e6c4b
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 42001966, Materia: 49, Curso: 3
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '42001966' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Piciota, Maria de los Angeles
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '49'
+Materia encontrada: Ingles
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '3'
+Curso encontrado: 1° "C" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '42001966' AND id_materia = '49' AND id_curso = '3'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('42001966', '49', '3')
+Paso 16: Inserción exitosa
+=== 2026-06-01 08:37:52 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 6c19b2d399ab823774e4540168dc2d94b6f3bd8f26e9324b09da13ebda0e6c4b
+SESSION csrf_token: 6c19b2d399ab823774e4540168dc2d94b6f3bd8f26e9324b09da13ebda0e6c4b
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 45790430, Materia: 29, Curso: 1
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '45790430' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Marek, Rocio
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '29'
+Materia encontrada: Ingles
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '1'
+Curso encontrado: 1° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '45790430' AND id_materia = '29' AND id_curso = '1'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('45790430', '29', '1')
+Paso 16: Inserción exitosa
+=== 2026-06-01 09:21:10 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 6c19b2d399ab823774e4540168dc2d94b6f3bd8f26e9324b09da13ebda0e6c4b
+SESSION csrf_token: 6c19b2d399ab823774e4540168dc2d94b6f3bd8f26e9324b09da13ebda0e6c4b
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 24601050, Materia: 80, Curso: 6
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '24601050' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Colella, Silvina Karen
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '80'
+Materia encontrada: Ingles
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '6'
+Curso encontrado: 1° "F" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '24601050' AND id_materia = '80' AND id_curso = '6'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('24601050', '80', '6')
+Paso 16: Inserción exitosa
+=== 2026-06-02 08:08:10 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: eebf1b29d4dfd530aa649af3a3642fcc9e6d04d9056f88950f0d28530d2ea497
+SESSION csrf_token: eebf1b29d4dfd530aa649af3a3642fcc9e6d04d9056f88950f0d28530d2ea497
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 22351658, Materia: 248, Curso: 17
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '22351658' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Carrizo, Alexis
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '248'
+Materia encontrada: Marco Juridico
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '17'
+Curso encontrado: 6° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '22351658' AND id_materia = '248' AND id_curso = '17'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('22351658', '248', '17')
+Paso 16: Inserción exitosa
+=== 2026-06-02 08:36:16 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: eebf1b29d4dfd530aa649af3a3642fcc9e6d04d9056f88950f0d28530d2ea497
+SESSION csrf_token: eebf1b29d4dfd530aa649af3a3642fcc9e6d04d9056f88950f0d28530d2ea497
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 34086426, Materia: 58, Curso: 4
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '34086426' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Caino, Johana Beatriz
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '58'
+Materia encontrada: Ingles
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '4'
+Curso encontrado: 1° "D" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '34086426' AND id_materia = '58' AND id_curso = '4'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('34086426', '58', '4')
+Paso 16: Inserción exitosa
+=== 2026-06-02 08:43:11 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: eebf1b29d4dfd530aa649af3a3642fcc9e6d04d9056f88950f0d28530d2ea497
+SESSION csrf_token: eebf1b29d4dfd530aa649af3a3642fcc9e6d04d9056f88950f0d28530d2ea497
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 34086426, Materia: 67, Curso: 5
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '34086426' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Caino, Johana Beatriz
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '67'
+Materia encontrada: Ingles
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '5'
+Curso encontrado: 1° "E" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '34086426' AND id_materia = '67' AND id_curso = '5'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('34086426', '67', '5')
+Paso 16: Inserción exitosa
+=== 2026-06-02 09:45:53 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: eebf1b29d4dfd530aa649af3a3642fcc9e6d04d9056f88950f0d28530d2ea497
+SESSION csrf_token: eebf1b29d4dfd530aa649af3a3642fcc9e6d04d9056f88950f0d28530d2ea497
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 37084205, Materia: 68, Curso: 5
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '37084205' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Wilka, Sergio
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '68'
+Materia encontrada: Tecnologia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '5'
+Curso encontrado: 1° "E" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '37084205' AND id_materia = '68' AND id_curso = '5'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('37084205', '68', '5')
+Paso 16: Inserción exitosa
+=== 2026-06-02 09:56:58 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: eebf1b29d4dfd530aa649af3a3642fcc9e6d04d9056f88950f0d28530d2ea497
+SESSION csrf_token: eebf1b29d4dfd530aa649af3a3642fcc9e6d04d9056f88950f0d28530d2ea497
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 34086426, Materia: 85, Curso: 7
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '34086426' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Caino, Johana Beatriz
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '85'
+Materia encontrada: Ingles
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '7'
+Curso encontrado: 2° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '34086426' AND id_materia = '85' AND id_curso = '7'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('34086426', '85', '7')
+Paso 16: Inserción exitosa
+=== 2026-06-02 10:05:08 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: eebf1b29d4dfd530aa649af3a3642fcc9e6d04d9056f88950f0d28530d2ea497
+SESSION csrf_token: eebf1b29d4dfd530aa649af3a3642fcc9e6d04d9056f88950f0d28530d2ea497
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 32502946, Materia: 82, Curso: 7
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '32502946' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Escanez, Maira Daniela
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '82'
+Materia encontrada: Dibujo Tecnico
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '7'
+Curso encontrado: 2° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '32502946' AND id_materia = '82' AND id_curso = '7'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('32502946', '82', '7')
+Paso 16: Inserción exitosa
+=== 2026-06-03 16:36:23 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: ef43974000eaef6d7f8709d0ffe44f7a9cffe4f756bd152b8beafa158d765477
+SESSION csrf_token: ef43974000eaef6d7f8709d0ffe44f7a9cffe4f756bd152b8beafa158d765477
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 40919748, Materia: 42, Curso: 3
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '40919748' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Bareiro, Luciano German
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '42'
+Materia encontrada: Geografia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '3'
+Curso encontrado: 1° "C" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '40919748' AND id_materia = '42' AND id_curso = '3'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('40919748', '42', '3')
+Paso 16: Inserción exitosa
+=== 2026-06-03 16:36:33 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: ef43974000eaef6d7f8709d0ffe44f7a9cffe4f756bd152b8beafa158d765477
+SESSION csrf_token: ef43974000eaef6d7f8709d0ffe44f7a9cffe4f756bd152b8beafa158d765477
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 40919748, Materia: 59, Curso: 4
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '40919748' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Bareiro, Luciano German
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '59'
+Materia encontrada: Geografia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '4'
+Curso encontrado: 1° "D" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '40919748' AND id_materia = '59' AND id_curso = '4'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('40919748', '59', '4')
+Paso 16: Inserción exitosa
+=== 2026-06-03 16:36:41 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: ef43974000eaef6d7f8709d0ffe44f7a9cffe4f756bd152b8beafa158d765477
+SESSION csrf_token: ef43974000eaef6d7f8709d0ffe44f7a9cffe4f756bd152b8beafa158d765477
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 40919748, Materia: 78, Curso: 6
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '40919748' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Bareiro, Luciano German
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '78'
+Materia encontrada: Geografia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '6'
+Curso encontrado: 1° "F" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '40919748' AND id_materia = '78' AND id_curso = '6'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('40919748', '78', '6')
+Paso 16: Inserción exitosa
+=== 2026-06-04 07:37:52 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 532b16d602ef5d4ee227c6d703067215efbc83e63ebd1978bb0eef0f95ba22f7
+SESSION csrf_token: 532b16d602ef5d4ee227c6d703067215efbc83e63ebd1978bb0eef0f95ba22f7
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 28085071, Materia: 275, Curso: 18
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '28085071' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Cáceres, Cristina Soledad
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '275'
+Materia encontrada: Marco Jurídico
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '18'
+Curso encontrado: 6° "B" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '28085071' AND id_materia = '275' AND id_curso = '18'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('28085071', '275', '18')
+Paso 16: Inserción exitosa
+=== 2026-06-04 10:16:31 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 9d5ba1e5040761fa6942d5bb929d1c53a7284ff2d7cba77434560aad9a066378
+SESSION csrf_token: 9d5ba1e5040761fa6942d5bb929d1c53a7284ff2d7cba77434560aad9a066378
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 33721049, Materia: 93, Curso: 8
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '33721049' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Moreno, Alejandro Daniel
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '93'
+Materia encontrada: Matematica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '8'
+Curso encontrado: 2° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '33721049' AND id_materia = '93' AND id_curso = '8'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('33721049', '93', '8')
+Paso 16: Inserción exitosa
+=== 2026-06-04 10:18:29 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 9d5ba1e5040761fa6942d5bb929d1c53a7284ff2d7cba77434560aad9a066378
+SESSION csrf_token: 9d5ba1e5040761fa6942d5bb929d1c53a7284ff2d7cba77434560aad9a066378
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 33721049, Materia: 105, Curso: 9
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '33721049' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Moreno, Alejandro Daniel
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '105'
+Materia encontrada: Matematica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '9'
+Curso encontrado: 2° "C" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '33721049' AND id_materia = '105' AND id_curso = '9'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('33721049', '105', '9')
+Paso 16: Inserción exitosa
+=== 2026-06-04 10:22:13 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 9d5ba1e5040761fa6942d5bb929d1c53a7284ff2d7cba77434560aad9a066378
+SESSION csrf_token: 9d5ba1e5040761fa6942d5bb929d1c53a7284ff2d7cba77434560aad9a066378
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 33853446, Materia: 69, Curso: 5
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '33853446' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Viera, Valeria Marisel
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '69'
+Materia encontrada: Geografia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '5'
+Curso encontrado: 1° "E" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '33853446' AND id_materia = '69' AND id_curso = '5'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('33853446', '69', '5')
+Paso 16: Inserción exitosa
+=== 2026-06-05 17:11:08 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: a08cc0702c4fd2aad3574f98428cdc07b4ba1a2edd9db1958dbf89b306937473
+SESSION csrf_token: a08cc0702c4fd2aad3574f98428cdc07b4ba1a2edd9db1958dbf89b306937473
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 31759687, Materia: 86, Curso: 7
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '31759687' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Rodriguez, Walter
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '86'
+Materia encontrada: Historia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '7'
+Curso encontrado: 2° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '31759687' AND id_materia = '86' AND id_curso = '7'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('31759687', '86', '7')
+Paso 16: Inserción exitosa
+=== 2026-06-06 12:45:29 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+SESSION csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 24573682, Materia: 164, Curso: 12
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '24573682' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Sobovoy, Andres Roberto
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '164'
+Materia encontrada: Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '12'
+Curso encontrado: 3° "C" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '24573682' AND id_materia = '164' AND id_curso = '12'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('24573682', '164', '12')
+Paso 16: Inserción exitosa
+=== 2026-06-06 12:45:38 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+SESSION csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 24573682, Materia: 83, Curso: 7
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '24573682' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Sobovoy, Andres Roberto
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '83'
+Materia encontrada: Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '7'
+Curso encontrado: 2° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '24573682' AND id_materia = '83' AND id_curso = '7'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('24573682', '83', '7')
+Paso 16: Inserción exitosa
+=== 2026-06-06 12:45:45 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+SESSION csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 24573682, Materia: 99, Curso: 8
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '24573682' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Sobovoy, Andres Roberto
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '99'
+Materia encontrada: Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '8'
+Curso encontrado: 2° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '24573682' AND id_materia = '99' AND id_curso = '8'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('24573682', '99', '8')
+Paso 16: Inserción exitosa
+=== 2026-06-06 12:45:52 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+SESSION csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 24573682, Materia: 126, Curso: 19
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '24573682' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Sobovoy, Andres Roberto
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '126'
+Materia encontrada: Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '19'
+Curso encontrado: 2° "E" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '24573682' AND id_materia = '126' AND id_curso = '19'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('24573682', '126', '19')
+Paso 16: Inserción exitosa
+=== 2026-06-06 12:46:00 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+SESSION csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 24573682, Materia: 148, Curso: 10
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '24573682' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Sobovoy, Andres Roberto
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '148'
+Materia encontrada: Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '10'
+Curso encontrado: 3° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '24573682' AND id_materia = '148' AND id_curso = '10'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('24573682', '148', '10')
+Paso 16: Inserción exitosa
+=== 2026-06-06 12:46:06 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+SESSION csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 24573682, Materia: 153, Curso: 11
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '24573682' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Sobovoy, Andres Roberto
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '153'
+Materia encontrada: Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '11'
+Curso encontrado: 3° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '24573682' AND id_materia = '153' AND id_curso = '11'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('24573682', '153', '11')
+Paso 16: Inserción exitosa
+=== 2026-06-06 12:51:36 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+SESSION csrf_token: 9df1d001fd3e2faf6ab417989cb80fb237fa4e92536c07f0a00e827d27f552c4
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 43120964, Materia: 134, Curso: 19
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '43120964' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Villalba, Carlos Daniel
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '134'
+Materia encontrada: Geografia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '19'
+Curso encontrado: 2° "E" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '43120964' AND id_materia = '134' AND id_curso = '19'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('43120964', '134', '19')
+Paso 16: Inserción exitosa
+=== 2026-06-08 08:15:37 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+SESSION csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 37084205, Materia: 120, Curso: 20
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '37084205' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Wilka, Sergio
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '120'
+Materia encontrada: Tecnologia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '20'
+Curso encontrado: 2° "D" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '37084205' AND id_materia = '120' AND id_curso = '20'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('37084205', '120', '20')
+Paso 16: Inserción exitosa
+=== 2026-06-08 08:20:34 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+SESSION csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 37325024, Materia: 120, Curso: 20
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '37325024' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Cardozo, Matias Sebastian
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '120'
+Materia encontrada: Tecnologia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '20'
+Curso encontrado: 2° "D" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '37325024' AND id_materia = '120' AND id_curso = '20'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('37325024', '120', '20')
+Paso 16: Inserción exitosa
+=== 2026-06-08 08:20:41 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+SESSION csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 37325024, Materia: 125, Curso: 19
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '37325024' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Cardozo, Matias Sebastian
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '125'
+Materia encontrada: Tecnologia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '19'
+Curso encontrado: 2° "E" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '37325024' AND id_materia = '125' AND id_curso = '19'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('37325024', '125', '19')
+Paso 16: Inserción exitosa
+=== 2026-06-08 08:21:24 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+SESSION csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 32608372, Materia: 97, Curso: 8
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '32608372' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Cardozo, Natalia Magdalena
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '97'
+Materia encontrada: Dibujo Tecnico
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '8'
+Curso encontrado: 2° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '32608372' AND id_materia = '97' AND id_curso = '8'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('32608372', '97', '8')
+Paso 16: Inserción exitosa
+=== 2026-06-08 08:39:24 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+SESSION csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 37084205, Materia: 79, Curso: 6
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '37084205' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Wilka, Sergio
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '79'
+Materia encontrada: Tecnologia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '6'
+Curso encontrado: 1° "F" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '37084205' AND id_materia = '79' AND id_curso = '6'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('37084205', '79', '6')
+Paso 16: Inserción exitosa
+=== 2026-06-08 08:39:33 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+SESSION csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 37084205, Materia: 120, Curso: 20
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '37084205' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Wilka, Sergio
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '120'
+Materia encontrada: Tecnologia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '20'
+Curso encontrado: 2° "D" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '37084205' AND id_materia = '120' AND id_curso = '20'
+Paso 15: Asignación ya existe
+=== 2026-06-08 08:39:58 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+SESSION csrf_token: 5a59c892eee0a7c093731c23d109507842664a8ee979e0fe07285600337d4e12
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 37084205, Materia: 60, Curso: 4
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '37084205' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Wilka, Sergio
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '60'
+Materia encontrada: Tecnologia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '4'
+Curso encontrado: 1° "D" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '37084205' AND id_materia = '60' AND id_curso = '4'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('37084205', '60', '4')
+Paso 16: Inserción exitosa
+=== 2026-06-08 10:27:01 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: bc52391e39b57719d070eff96b8461ea5a7f6a8a5b2793c7fef8664a6e32d33e
+SESSION csrf_token: bc52391e39b57719d070eff96b8461ea5a7f6a8a5b2793c7fef8664a6e32d33e
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 18334111, Materia: 73, Curso: 6
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '18334111' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Cabrera, Sandra Viviana
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '73'
+Materia encontrada: Matematica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '6'
+Curso encontrado: 1° "F" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '18334111' AND id_materia = '73' AND id_curso = '6'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('18334111', '73', '6')
+Paso 16: Inserción exitosa
+=== 2026-06-08 10:29:15 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 826d02d38c92b1f1db1afc2a46e5d5a961b039c412317bcfb99ff3d34c6c79fd
+SESSION csrf_token: 826d02d38c92b1f1db1afc2a46e5d5a961b039c412317bcfb99ff3d34c6c79fd
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 37325024, Materia: 115, Curso: 20
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '37325024' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Cardozo, Matias Sebastian
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '115'
+Materia encontrada: Dibujo Tecnico
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '20'
+Curso encontrado: 2° "D" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '37325024' AND id_materia = '115' AND id_curso = '20'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('37325024', '115', '20')
+Paso 16: Inserción exitosa
+=== 2026-06-08 14:41:05 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 7a6c321657e0c9d4a998d01295f16758413cb6ed62bc0b0770cbcb2c617324a2
+SESSION csrf_token: 7a6c321657e0c9d4a998d01295f16758413cb6ed62bc0b0770cbcb2c617324a2
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 30398377, Materia: 23, Curso: 1
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '30398377' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Rojas, Gabriela
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '23'
+Materia encontrada: Dibujo Tecnico
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '1'
+Curso encontrado: 1° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '30398377' AND id_materia = '23' AND id_curso = '1'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('30398377', '23', '1')
+Paso 16: Inserción exitosa
+=== 2026-06-08 15:25:28 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 19fbed2a528af5ae3cbc1a09bac3856388b9221173b7c0be040321700b559a8f
+SESSION csrf_token: 19fbed2a528af5ae3cbc1a09bac3856388b9221173b7c0be040321700b559a8f
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 30871874, Materia: 96, Curso: 8
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '30871874' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Schunke, Federico
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '96'
+Materia encontrada: Ingles
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '8'
+Curso encontrado: 2° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '30871874' AND id_materia = '96' AND id_curso = '8'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('30871874', '96', '8')
+Paso 16: Inserción exitosa
+=== 2026-06-08 17:34:54 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 80cd7318440d89abd17419436dcaf95361c00f469ae19cec5fc0ca749e9b55f6
+SESSION csrf_token: 80cd7318440d89abd17419436dcaf95361c00f469ae19cec5fc0ca749e9b55f6
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 40897848, Materia: 155, Curso: 11
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '40897848' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Barchuk, Micaela
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '155'
+Materia encontrada: Geografia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '11'
+Curso encontrado: 3° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '40897848' AND id_materia = '155' AND id_curso = '11'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('40897848', '155', '11')
+Paso 16: Inserción exitosa
+=== 2026-06-08 17:46:15 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 80cd7318440d89abd17419436dcaf95361c00f469ae19cec5fc0ca749e9b55f6
+SESSION csrf_token: 80cd7318440d89abd17419436dcaf95361c00f469ae19cec5fc0ca749e9b55f6
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 30398377, Materia: 23, Curso: 1
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '30398377' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Rojas, Gabriela
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '23'
+Materia encontrada: Dibujo Tecnico
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '1'
+Curso encontrado: 1° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '30398377' AND id_materia = '23' AND id_curso = '1'
+Paso 15: Asignación ya existe
+=== 2026-06-09 10:55:26 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: e665840d4baacf7eab3c3a7066d04768dc301841e91a53b8ed6f78e7a555700a
+SESSION csrf_token: e665840d4baacf7eab3c3a7066d04768dc301841e91a53b8ed6f78e7a555700a
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 18334111, Materia: 114, Curso: 20
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '18334111' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Cabrera, Sandra Viviana
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '114'
+Materia encontrada: Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '20'
+Curso encontrado: 2° "D" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '18334111' AND id_materia = '114' AND id_curso = '20'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('18334111', '114', '20')
+Paso 16: Inserción exitosa
+=== 2026-06-09 11:21:54 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: e665840d4baacf7eab3c3a7066d04768dc301841e91a53b8ed6f78e7a555700a
+SESSION csrf_token: e665840d4baacf7eab3c3a7066d04768dc301841e91a53b8ed6f78e7a555700a
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 26221216, Materia: 57, Curso: 4
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '26221216' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Servian, Elena
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '57'
+Materia encontrada: Educacion Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '4'
+Curso encontrado: 1° "D" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '26221216' AND id_materia = '57' AND id_curso = '4'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('26221216', '57', '4')
+Paso 16: Inserción exitosa
+=== 2026-06-09 17:26:32 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: b239c5a1d0524249834f6a72db4c23ca9a9e14e296c6a6a56893544f29473e8f
+SESSION csrf_token: b239c5a1d0524249834f6a72db4c23ca9a9e14e296c6a6a56893544f29473e8f
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 34086426, Materia: 110, Curso: 9
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '34086426' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Caino, Johana Beatriz
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '110'
+Materia encontrada: Ingles
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '9'
+Curso encontrado: 2° "C" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '34086426' AND id_materia = '110' AND id_curso = '9'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('34086426', '110', '9')
+Paso 16: Inserción exitosa
+=== 2026-06-09 21:49:14 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 73a239f5d603ef5bae688d5c28eab0a8ec1c832b3abe3bab130349afe7f917db
+SESSION csrf_token: 73a239f5d603ef5bae688d5c28eab0a8ec1c832b3abe3bab130349afe7f917db
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 26339014, Materia: 24, Curso: 1
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '26339014' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Blohsel, Eugenio Osvaldo
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '24'
+Materia encontrada: Educacion Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '1'
+Curso encontrado: 1° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '26339014' AND id_materia = '24' AND id_curso = '1'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('26339014', '24', '1')
+Paso 16: Inserción exitosa
+=== 2026-06-09 23:14:35 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 73a239f5d603ef5bae688d5c28eab0a8ec1c832b3abe3bab130349afe7f917db
+SESSION csrf_token: 73a239f5d603ef5bae688d5c28eab0a8ec1c832b3abe3bab130349afe7f917db
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 31214037, Materia: 74, Curso: 6
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '31214037' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Tarnowski, Maria Elena
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '74'
+Materia encontrada: Educacion Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '6'
+Curso encontrado: 1° "F" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '31214037' AND id_materia = '74' AND id_curso = '6'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('31214037', '74', '6')
+Paso 16: Inserción exitosa
+=== 2026-06-09 23:14:49 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 73a239f5d603ef5bae688d5c28eab0a8ec1c832b3abe3bab130349afe7f917db
+SESSION csrf_token: 73a239f5d603ef5bae688d5c28eab0a8ec1c832b3abe3bab130349afe7f917db
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 31214037, Materia: 70, Curso: 5
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '31214037' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Tarnowski, Maria Elena
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '70'
+Materia encontrada: Educacion Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '5'
+Curso encontrado: 1° "E" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '31214037' AND id_materia = '70' AND id_curso = '5'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('31214037', '70', '5')
+Paso 16: Inserción exitosa
+=== 2026-06-10 10:35:18 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 85edf3ac9a44361c9f4900d21d0aba1df9d434150be0f44ae9938b9d70e46a5d
+SESSION csrf_token: 85edf3ac9a44361c9f4900d21d0aba1df9d434150be0f44ae9938b9d70e46a5d
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 34018322, Materia: 177, Curso: 12
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '34018322' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Gomez, Walter Samuel
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '177'
+Materia encontrada: Logica y Programacion
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '12'
+Curso encontrado: 3° "C" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '34018322' AND id_materia = '177' AND id_curso = '12'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('34018322', '177', '12')
+Paso 16: Inserción exitosa
+=== 2026-06-11 07:20:14 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48265827
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 225f4ab00ad0b1fd9831a715074b5fbc9c03d75fea48165f0f5aeba1f2646f81
+SESSION csrf_token: 225f4ab00ad0b1fd9831a715074b5fbc9c03d75fea48165f0f5aeba1f2646f81
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 28085071, Materia: 275, Curso: 18
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '28085071' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Cáceres, Cristina Soledad
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '275'
+Materia encontrada: Marco Jurídico
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '18'
+Curso encontrado: 6° "B" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '28085071' AND id_materia = '275' AND id_curso = '18'
+Paso 15: Asignación ya existe
+=== 2026-06-11 19:46:28 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 0c45702b3f1598ad4b7bf37c1f37c690371ef0d79439ab9458fc25a86de48b85
+SESSION csrf_token: 0c45702b3f1598ad4b7bf37c1f37c690371ef0d79439ab9458fc25a86de48b85
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 30508868, Materia: 268, Curso: 18
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '30508868' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Páez Saavedra, Ernesto José
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '268'
+Materia encontrada: Educación Física
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '18'
+Curso encontrado: 6° "B" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '30508868' AND id_materia = '268' AND id_curso = '18'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('30508868', '268', '18')
+Paso 16: Inserción exitosa
+=== 2026-06-12 11:14:25 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: a592798a3c3d44e0f064ca3e987aae1b8694d07e6fc2a6b1c4900a4377deb287
+SESSION csrf_token: a592798a3c3d44e0f064ca3e987aae1b8694d07e6fc2a6b1c4900a4377deb287
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 31113533, Materia: 173, Curso: 12
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '31113533' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Oilher, Sebastián Leandro
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '173'
+Materia encontrada: Ingles
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '12'
+Curso encontrado: 3° "C" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '31113533' AND id_materia = '173' AND id_curso = '12'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('31113533', '173', '12')
+Paso 16: Inserción exitosa
+=== 2026-06-12 11:23:20 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: a592798a3c3d44e0f064ca3e987aae1b8694d07e6fc2a6b1c4900a4377deb287
+SESSION csrf_token: a592798a3c3d44e0f064ca3e987aae1b8694d07e6fc2a6b1c4900a4377deb287
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 29645982, Materia: 21, Curso: 1
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '29645982' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Renaut, Marisa
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '21'
+Materia encontrada: Lengua
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '1'
+Curso encontrado: 1° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '29645982' AND id_materia = '21' AND id_curso = '1'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('29645982', '21', '1')
+Paso 16: Inserción exitosa
+=== 2026-06-12 12:43:03 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 21d230a57c6e87e6b2c4ab3b1b57de2cdadeca9ca191b37e6f69bf5e92ac67e9
+SESSION csrf_token: 21d230a57c6e87e6b2c4ab3b1b57de2cdadeca9ca191b37e6f69bf5e92ac67e9
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 30484108, Materia: 91, Curso: 7
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '30484108' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Molinaro, Alejandro Dario
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '91'
+Materia encontrada: Educacion Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '7'
+Curso encontrado: 2° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '30484108' AND id_materia = '91' AND id_curso = '7'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('30484108', '91', '7')
+Paso 16: Inserción exitosa
+=== 2026-06-12 12:43:38 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 21d230a57c6e87e6b2c4ab3b1b57de2cdadeca9ca191b37e6f69bf5e92ac67e9
+SESSION csrf_token: 21d230a57c6e87e6b2c4ab3b1b57de2cdadeca9ca191b37e6f69bf5e92ac67e9
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 31214037, Materia: 133, Curso: 19
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '31214037' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Tarnowski, Maria Elena
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '133'
+Materia encontrada: Educacion Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '19'
+Curso encontrado: 2° "E" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '31214037' AND id_materia = '133' AND id_curso = '19'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('31214037', '133', '19')
+Paso 16: Inserción exitosa
+=== 2026-06-12 12:49:18 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 21d230a57c6e87e6b2c4ab3b1b57de2cdadeca9ca191b37e6f69bf5e92ac67e9
+SESSION csrf_token: 21d230a57c6e87e6b2c4ab3b1b57de2cdadeca9ca191b37e6f69bf5e92ac67e9
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 42381212, Materia: 147, Curso: 10
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '42381212' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Moellman, Najali
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '147'
+Materia encontrada: Ingles
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '10'
+Curso encontrado: 3° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '42381212' AND id_materia = '147' AND id_curso = '10'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('42381212', '147', '10')
+Paso 16: Inserción exitosa
+=== 2026-06-12 12:49:27 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 21d230a57c6e87e6b2c4ab3b1b57de2cdadeca9ca191b37e6f69bf5e92ac67e9
+SESSION csrf_token: 21d230a57c6e87e6b2c4ab3b1b57de2cdadeca9ca191b37e6f69bf5e92ac67e9
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 42381212, Materia: 178, Curso: 13
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '42381212' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Moellman, Najali
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '178'
+Materia encontrada: Ingles
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '13'
+Curso encontrado: 4° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '42381212' AND id_materia = '178' AND id_curso = '13'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('42381212', '178', '13')
+Paso 16: Inserción exitosa
+=== 2026-06-12 14:12:45 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 097868082640d731515e8c2fd61c438c29847c0d5f7c0740a21bbe7e1604f38a
+SESSION csrf_token: 097868082640d731515e8c2fd61c438c29847c0d5f7c0740a21bbe7e1604f38a
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 31214037, Materia: 133, Curso: 19
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '31214037' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Tarnowski, Maria Elena
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '133'
+Materia encontrada: Educacion Fisica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '19'
+Curso encontrado: 2° "E" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '31214037' AND id_materia = '133' AND id_curso = '19'
+Paso 15: Asignación ya existe
+=== 2026-06-12 17:17:23 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: fec27eee3962c2cdce9ec5b681e6f084c5741c3b2a3ff6784faae279f1b9ac0e
+SESSION csrf_token: fec27eee3962c2cdce9ec5b681e6f084c5741c3b2a3ff6784faae279f1b9ac0e
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 36530153, Materia: 94, Curso: 8
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '36530153' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Mendez, Maria Belen
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '94'
+Materia encontrada: Lengua
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '8'
+Curso encontrado: 2° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '36530153' AND id_materia = '94' AND id_curso = '8'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('36530153', '94', '8')
+Paso 16: Inserción exitosa
+=== 2026-06-12 17:19:03 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: fec27eee3962c2cdce9ec5b681e6f084c5741c3b2a3ff6784faae279f1b9ac0e
+SESSION csrf_token: fec27eee3962c2cdce9ec5b681e6f084c5741c3b2a3ff6784faae279f1b9ac0e
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 36530153, Materia: 106, Curso: 9
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '36530153' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Mendez, Maria Belen
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '106'
+Materia encontrada: Lengua
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '9'
+Curso encontrado: 2° "C" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '36530153' AND id_materia = '106' AND id_curso = '9'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('36530153', '106', '9')
+Paso 16: Inserción exitosa
+=== 2026-06-13 13:37:09 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: e0f5050bfc324c275fc28ab2d8fb783b3bb601092c0424d395ccf4469ea91d51
+SESSION csrf_token: e0f5050bfc324c275fc28ab2d8fb783b3bb601092c0424d395ccf4469ea91d51
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 32024065, Materia: 71, Curso: 6
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '32024065' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Candia, Gustavo Adolfo
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '71'
+Materia encontrada: Formacion Etica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '6'
+Curso encontrado: 1° "F" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '32024065' AND id_materia = '71' AND id_curso = '6'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('32024065', '71', '6')
+Paso 16: Inserción exitosa
+=== 2026-06-13 13:38:00 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: e0f5050bfc324c275fc28ab2d8fb783b3bb601092c0424d395ccf4469ea91d51
+SESSION csrf_token: e0f5050bfc324c275fc28ab2d8fb783b3bb601092c0424d395ccf4469ea91d51
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 32024065, Materia: 62, Curso: 5
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '32024065' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Candia, Gustavo Adolfo
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '62'
+Materia encontrada: Formacion Etica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '5'
+Curso encontrado: 1° "E" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '32024065' AND id_materia = '62' AND id_curso = '5'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('32024065', '62', '5')
+Paso 16: Inserción exitosa
+=== 2026-06-13 13:38:35 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: e0f5050bfc324c275fc28ab2d8fb783b3bb601092c0424d395ccf4469ea91d51
+SESSION csrf_token: e0f5050bfc324c275fc28ab2d8fb783b3bb601092c0424d395ccf4469ea91d51
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 32024065, Materia: 53, Curso: 4
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '32024065' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Candia, Gustavo Adolfo
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '53'
+Materia encontrada: Formacion Etica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '4'
+Curso encontrado: 1° "D" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '32024065' AND id_materia = '53' AND id_curso = '4'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('32024065', '53', '4')
+Paso 16: Inserción exitosa
+=== 2026-06-13 13:39:29 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: e0f5050bfc324c275fc28ab2d8fb783b3bb601092c0424d395ccf4469ea91d51
+SESSION csrf_token: e0f5050bfc324c275fc28ab2d8fb783b3bb601092c0424d395ccf4469ea91d51
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 32024065, Materia: 143, Curso: 10
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '32024065' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Candia, Gustavo Adolfo
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '143'
+Materia encontrada: Formacion Etica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '10'
+Curso encontrado: 3° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '32024065' AND id_materia = '143' AND id_curso = '10'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('32024065', '143', '10')
+Paso 16: Inserción exitosa
+=== 2026-06-13 13:42:08 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: e0f5050bfc324c275fc28ab2d8fb783b3bb601092c0424d395ccf4469ea91d51
+SESSION csrf_token: e0f5050bfc324c275fc28ab2d8fb783b3bb601092c0424d395ccf4469ea91d51
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 32024065, Materia: 169, Curso: 12
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '32024065' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Candia, Gustavo Adolfo
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '169'
+Materia encontrada: Etica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '12'
+Curso encontrado: 3° "C" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '32024065' AND id_materia = '169' AND id_curso = '12'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('32024065', '169', '12')
+Paso 16: Inserción exitosa
+=== 2026-06-16 08:30:09 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 57e289d91c4d0353d97c7b238051c529d4d94137d7866bbfcecf970db726dd9e
+SESSION csrf_token: 57e289d91c4d0353d97c7b238051c529d4d94137d7866bbfcecf970db726dd9e
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 25037563, Materia: 100, Curso: 8
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '25037563' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Torres, Maria
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '100'
+Materia encontrada: Etica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '8'
+Curso encontrado: 2° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '25037563' AND id_materia = '100' AND id_curso = '8'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('25037563', '100', '8')
+Paso 16: Inserción exitosa
+=== 2026-06-16 08:30:18 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 57e289d91c4d0353d97c7b238051c529d4d94137d7866bbfcecf970db726dd9e
+SESSION csrf_token: 57e289d91c4d0353d97c7b238051c529d4d94137d7866bbfcecf970db726dd9e
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 25037563, Materia: 112, Curso: 9
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '25037563' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Torres, Maria
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '112'
+Materia encontrada: Etica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '9'
+Curso encontrado: 2° "C" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '25037563' AND id_materia = '112' AND id_curso = '9'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('25037563', '112', '9')
+Paso 16: Inserción exitosa
+=== 2026-06-16 18:16:38 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48265827
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 9c9a8b0430a5a884b50aed1b9d4afe1f1177f0dc03162f1f9cd4f2dfc7e460ac
+SESSION csrf_token: 9c9a8b0430a5a884b50aed1b9d4afe1f1177f0dc03162f1f9cd4f2dfc7e460ac
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 40952131, Materia: 174, Curso: 12
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '40952131' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Fleita, Sabrina
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '174'
+Materia encontrada: Geografia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '12'
+Curso encontrado: 3° "C" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '40952131' AND id_materia = '174' AND id_curso = '12'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('40952131', '174', '12')
+Paso 16: Inserción exitosa
+=== 2026-06-17 08:12:03 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 038fea98d9a9c2cf5f14867bc28051d32b4aa2a8951f5b5cf6c025e4b6f681db
+SESSION csrf_token: 038fea98d9a9c2cf5f14867bc28051d32b4aa2a8951f5b5cf6c025e4b6f681db
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 23383779, Materia: 144, Curso: 10
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '23383779' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Enriquez, Daniel German
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '144'
+Materia encontrada: Electronica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '10'
+Curso encontrado: 3° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '23383779' AND id_materia = '144' AND id_curso = '10'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('23383779', '144', '10')
+Paso 16: Inserción exitosa
+=== 2026-06-17 08:12:43 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 038fea98d9a9c2cf5f14867bc28051d32b4aa2a8951f5b5cf6c025e4b6f681db
+SESSION csrf_token: 038fea98d9a9c2cf5f14867bc28051d32b4aa2a8951f5b5cf6c025e4b6f681db
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 23383779, Materia: 137, Curso: 10
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '23383779' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Enriquez, Daniel German
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '137'
+Materia encontrada: Laboratorio de Hardware I
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '10'
+Curso encontrado: 3° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '23383779' AND id_materia = '137' AND id_curso = '10'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('23383779', '137', '10')
+Paso 16: Inserción exitosa
+=== 2026-06-17 08:13:15 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 038fea98d9a9c2cf5f14867bc28051d32b4aa2a8951f5b5cf6c025e4b6f681db
+SESSION csrf_token: 038fea98d9a9c2cf5f14867bc28051d32b4aa2a8951f5b5cf6c025e4b6f681db
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 23383779, Materia: 152, Curso: 11
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '23383779' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Enriquez, Daniel German
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '152'
+Materia encontrada: Electronica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '11'
+Curso encontrado: 3° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '23383779' AND id_materia = '152' AND id_curso = '11'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('23383779', '152', '11')
+Paso 16: Inserción exitosa
+=== 2026-06-17 08:13:42 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 038fea98d9a9c2cf5f14867bc28051d32b4aa2a8951f5b5cf6c025e4b6f681db
+SESSION csrf_token: 038fea98d9a9c2cf5f14867bc28051d32b4aa2a8951f5b5cf6c025e4b6f681db
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 23383779, Materia: 150, Curso: 11
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '23383779' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Enriquez, Daniel German
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '150'
+Materia encontrada: Laboratorio de Hardware I
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '11'
+Curso encontrado: 3° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '23383779' AND id_materia = '150' AND id_curso = '11'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('23383779', '150', '11')
+Paso 16: Inserción exitosa
+=== 2026-06-17 08:14:28 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 038fea98d9a9c2cf5f14867bc28051d32b4aa2a8951f5b5cf6c025e4b6f681db
+SESSION csrf_token: 038fea98d9a9c2cf5f14867bc28051d32b4aa2a8951f5b5cf6c025e4b6f681db
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 23383779, Materia: 180, Curso: 13
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '23383779' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Enriquez, Daniel German
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '180'
+Materia encontrada: Redes I
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '13'
+Curso encontrado: 4° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '23383779' AND id_materia = '180' AND id_curso = '13'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('23383779', '180', '13')
+Paso 16: Inserción exitosa
+=== 2026-06-17 08:19:21 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: d0914bd67a70eb3a1de52c44d761fba217c8ee414d4235ee6c79f66127e99dfc
+SESSION csrf_token: d0914bd67a70eb3a1de52c44d761fba217c8ee414d4235ee6c79f66127e99dfc
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 30871674, Materia: 96, Curso: 8
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '30871674' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Schunke, Federico
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '96'
+Materia encontrada: Ingles
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '8'
+Curso encontrado: 2° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '30871674' AND id_materia = '96' AND id_curso = '8'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('30871674', '96', '8')
+Paso 16: Inserción exitosa
+=== 2026-06-17 09:21:18 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 3ebbe74cdae56b9805f8342831ca4aab17bbf7ecdc1e04cab447d1731cb0dabe
+SESSION csrf_token: 3ebbe74cdae56b9805f8342831ca4aab17bbf7ecdc1e04cab447d1731cb0dabe
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 34743206, Materia: 190, Curso: 13
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '34743206' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Diederich, Alejandro
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '190'
+Materia encontrada: Quimica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '13'
+Curso encontrado: 4° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '34743206' AND id_materia = '190' AND id_curso = '13'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('34743206', '190', '13')
+Paso 16: Inserción exitosa
+=== 2026-06-17 10:21:48 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48265827
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 93e70aeac9c0431587d5bebe71e614c901d27a271e66436b123c96986d5c9a4b
+SESSION csrf_token: 93e70aeac9c0431587d5bebe71e614c901d27a271e66436b123c96986d5c9a4b
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 40952131, Materia: 89, Curso: 7
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '40952131' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Fleita, Sabrina
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '89'
+Materia encontrada: Geografia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '7'
+Curso encontrado: 2° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '40952131' AND id_materia = '89' AND id_curso = '7'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('40952131', '89', '7')
+Paso 16: Inserción exitosa
+=== 2026-06-17 10:22:36 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 48265827
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 93e70aeac9c0431587d5bebe71e614c901d27a271e66436b123c96986d5c9a4b
+SESSION csrf_token: 93e70aeac9c0431587d5bebe71e614c901d27a271e66436b123c96986d5c9a4b
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 40952131, Materia: 38, Curso: 2
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '40952131' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Fleita, Sabrina
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '38'
+Materia encontrada: Geografia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '2'
+Curso encontrado: 1° "B" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '40952131' AND id_materia = '38' AND id_curso = '2'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('40952131', '38', '2')
+Paso 16: Inserción exitosa
+=== 2026-06-18 08:37:17 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 615caa86ae86656d877790b375bca9370b8ed0754660af334ede82240af7665b
+SESSION csrf_token: 615caa86ae86656d877790b375bca9370b8ed0754660af334ede82240af7665b
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 34743286, Materia: 190, Curso: 13
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '34743286' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Diederich, Alejandro
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '190'
+Materia encontrada: Quimica
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '13'
+Curso encontrado: 4° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '34743286' AND id_materia = '190' AND id_curso = '13'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('34743286', '190', '13')
+Paso 16: Inserción exitosa
+=== 2026-06-18 15:08:06 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: d5e8b553b7586dd887a19258805ee98a96ff74049aaf7948b5159c0d753ba9bd
+SESSION csrf_token: d5e8b553b7586dd887a19258805ee98a96ff74049aaf7948b5159c0d753ba9bd
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 45450556, Materia: 22, Curso: 1
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '45450556' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Geck, Agostina
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '22'
+Materia encontrada: Geografia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '1'
+Curso encontrado: 1° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '45450556' AND id_materia = '22' AND id_curso = '1'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('45450556', '22', '1')
+Paso 16: Inserción exitosa
+=== 2026-06-18 15:18:41 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 26623512
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 8d1c02e96def2809b1f1e6a324cc9c66a8ad5a51ecb487f786d05c0f8f969264
+SESSION csrf_token: 8d1c02e96def2809b1f1e6a324cc9c66a8ad5a51ecb487f786d05c0f8f969264
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 45450556, Materia: 22, Curso: 1
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '45450556' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Geck, Agostina
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '22'
+Materia encontrada: Geografia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '1'
+Curso encontrado: 1° "A" - Tarde
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '45450556' AND id_materia = '22' AND id_curso = '1'
+Paso 15: Asignación ya existe
+=== 2026-09-08 10:23:26 ===
+Paso 1: Iniciando script
+Paso 2: Session iniciada
+Paso 3: Sesión válida. DNI: 98989898
+Paso 4: Permisos OK
+Paso 5: Verificando CSRF
+POST csrf_token: 8ffe845394b351c0a212026d66e869006ea27bba0753372f8bd1e9b52689cc52
+SESSION csrf_token: 8ffe845394b351c0a212026d66e869006ea27bba0753372f8bd1e9b52689cc52
+Paso 5a: Token válido
+Paso 6: Obteniendo datos POST
+Docente: 36096460, Materia: 130, Curso: 19
+Paso 9: Incluyendo conexión
+Paso 10: Conexión OK
+Query docente: SELECT DNI_U, Nombre, Apellido FROM usuario WHERE DNI_U = '36096460' AND ID_rol = 2 AND ID_Estado = 1
+Docente encontrado: Endrich, Elsa Beatriz
+Query materia: SELECT ID_materia, Nom_materia, id_curso FROM materia WHERE ID_materia = '130'
+Materia encontrada: Biologia
+Query curso: SELECT ID_curso, curso, division, turno FROM curso WHERE ID_curso = '19'
+Curso encontrado: 2° "E" - Mañana
+Query verificar existencia: SELECT id_dmc FROM docentemateriacurso WHERE id_docente = '36096460' AND id_materia = '130' AND id_curso = '19'
+Query insert: INSERT INTO docentemateriacurso (id_docente, id_materia, id_curso) VALUES ('36096460', '130', '19')
+Paso 16: Inserción exitosa

@@ -1,0 +1,9 @@
+[2026-06-18 12:29:22] === INICIO procesar_envio_masivo ===
+[2026-06-18 12:29:22] POST: Array
+(
+    [action] => obtener_alumnos_curso
+    [curso_id] => 23
+)
+
+[2026-06-18 12:29:22] Buscando PHPMailer en: /home/a0011360/public_html/calificaciones/modulos/Libreta Electronica/PHPMailer/src/PHPMailer.php
+[2026-06-18 12:29:22] ERROR: No se encuentra PHPMailer.php en /home/a0011360/public_html/calificaciones/modulos/Libreta Electronica/PHPMailer/src/PHPMailer.php
