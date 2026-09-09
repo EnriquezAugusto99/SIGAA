@@ -1,0 +1,16 @@
+{
+    "ma\u00f1ana": {
+        "normal_inicio": "06:45",
+        "normal_fin": "07:00",
+        "tardanza_inicio": "07:01",
+        "tardanza_fin": "07:20",
+        "falta_inicio": "07:30"
+    },
+    "tarde": {
+        "normal_inicio": "13:45",
+        "normal_fin": "14:00",
+        "tardanza_inicio": "14:01",
+        "tardanza_fin": "14:20",
+        "falta_inicio": "14:30"
+    }
+}
