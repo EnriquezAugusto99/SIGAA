@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+    --dark-red: #3F070B;
+    --deep-crimson: #710A14;
+    --dark-burgundy: #180605;
+    --dusty-rose: #818582;
+    --rustic-red: #8F3C45;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2c2c2c;
+    background-color: #e8e8e8; /* 👈 igual que el otro */
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    background: linear-gradient(180deg, var(--dark-red) 0%, var(--deep-crimson) 100%);
+    color: white;
+    min-height: 100vh;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sidebar .nav-link {
+    color: white;
+    padding: 12px 20px;
+    transition: all 0.2s;
+    border-left: 3px solid transparent;
+}
+
+.sidebar .nav-link:hover {
+    background: rgba(255,255,255,0.1);
+    border-left: 3px solid var(--dusty-rose);
+    padding-left: 25px;
+}
+
+.nav-link.active {
+    background: rgba(255,255,255,0.15);
+    border-left: 4px solid var(--dusty-rose);
+}
+
+.content-area {
+    flex: 1;
+    padding: 30px;
+    background-color: #e8e8e8; 
+}
+
+.welcome-card,
+.module-card h4 button {
+    background: none;
+    border: none;
+    font-weight: 600;
+    color: var(--dark-burgundy);
+}
+
+.module-card h4 button:hover {
+    color: var(--deep-crimson);
+}
+
+/* TÍTULOS */
+h1, h2, h3, h4, h5 {
+    color: var(--dark-burgundy);
+    font-weight: 600;
+}
+
+/* ACCORDION */
+.accordion-button {
+    background: white;
+    color: var(--deep-crimson);
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #f5e6e6;
+}
+
+/* BOTONES (igual estilo form-btn) */
+.btn-custom {
+    display: inline-block;
+    background: var(--deep-crimson);
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s;
+    border: none;
+}
+
+.btn-custom:hover {
+    background: var(--dark-burgundy);
+    transform: scale(1.03);
+}
+
+/* TEXTO */
+p, small {
+    color: #4a4a4a;
+}
+
+/* ACCORDION BODY */
+.accordion-body {
+    color: #4a4a4a !important;
+}
+.btn-panel {
+    background: white;
+    color: var(--deep-crimson);
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+    }
+}
